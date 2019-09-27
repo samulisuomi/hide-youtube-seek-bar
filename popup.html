@@ -2,6 +2,10 @@
 <html>
   <head>
     <style>
+      .container {
+        display: flex;
+      }
+
       button {
         height: 30px;
         width: 30px;
@@ -11,7 +15,10 @@
   </head>
 
   <body>
-    <button id="changeColor"></button>
+    <div class="container">
+      <label for="show">Show the seek bar</label>
+      <input type="checkbox" id="show" name="show" checked>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>
