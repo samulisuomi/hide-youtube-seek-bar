@@ -1,0 +1,14 @@
+{
+  "name": "Hide YouTube Seek Bar",
+  "version": "1.0",
+  "description": "Toggle the visibility of the seek bar (a.k.a. progress bar) on YouTube for spoiler-free viewing experiences.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
