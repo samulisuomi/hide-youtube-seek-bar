@@ -1,1 +1,1 @@
-# hide-youtube-seek-bar
+# Hide YouTube Seek Bar (Chrome Extension)
